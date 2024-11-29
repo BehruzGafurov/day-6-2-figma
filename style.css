@@ -1,0 +1,98 @@
+/* styles.css */
+* {
+    box-sizing: border-box; /* Включаем управление размерами для всех элементов */
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff6b6b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    background: #ff6b6b;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .content h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .form-container {
+    flex: 1;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trial-banner {
+    background-color: #624de3;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none; /* Убираем фокус-границу, если нужно */
+    box-sizing: border-box; /* Важно для правильного расчета размера */
+  }
+  
+  .signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .signup-form button:hover {
+    background-color: #218838;
+  }
+  
+  .signup-form p {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .signup-form a {
+    color: #624de3;
+    text-decoration: none;
+  }
+  
